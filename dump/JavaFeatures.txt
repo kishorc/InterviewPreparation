@@ -1,0 +1,561 @@
+Java 1.0:
+---------------
+1. StringBuffer
+
+
+Java 5 Features:
+----------------
+1. Annotations
+2. Generics
+3. autoboxing and unboxing
+4. enum
+5. StringBuilder 
+
+Java 7 Featuers:
+----------------
+1. try-with-resource
+2. String in switch case.
+
+Java 8 Features:
+-----------------
+1. Interface changes with default and static methods
+2. Functional interfaces and Lambda Expressions
+3. Java Stream API for collection classes
+4. Java Date Time API
+
+
+Abbrevations:
+-------------
+JDK			: Java Development Kit
+JVM			: Java Virtual Machine
+JRE			: Java Runtime Environment
+J2SE		: Java 2 Standard Edition
+J2EE		: Java 2 Enterprise Edition
+
+
+Primitive types: 8
+------------------
+byte		: 	Byte
+short		: 	Short
+int			:	Integer
+long		:	Long
+float		:	Float
+double		: 	Double
+char		: 	Character
+boolean		: 	Boolean
+
+
+
+Java Annotations:
+-----------------
+@Override
+@Deprecated
+@SuppressWarnings
+
+
+enum, voltile, 
+heap, stack
+
+Q1.What do you mean by platform independence of Java?
+Answer:
+Platform independence means that you can run the same Java Program in any Operating System.
+For example, you can write java program in Windows and run it in Mac OS.
+		 
+Q2.What is JVM and is it platform independent?
+Answer:
+Java Virtual Machine (JVM) is the heart of java programming language. JVM is responsible for converting byte code into machine readable code.
+JVM is not platform independent, thats why you have different JVM for different operating systems. 
+We can customize JVM with Java Options, such as allocating minimum and maximum memory to JVM.
+It’s called virtual because it provides an interface that doesn’t depend on the underlying OS.
+
+Q3.What is the difference between JDK and JVM?
+Answer:
+Java Development Kit (JDK) is for development purpose and JVM is a part of it to execute the java programs.
+JDK provides all the tools, executables and binaries required to compile, debug and execute a Java Program.
+The execution part is handled by JVM to provide machine independence.
+
+Q4.What is the difference between JVM and JRE?
+Answer:
+Java Runtime Environment (JRE) is the implementation of JVM.
+JRE consists of JVM, java binaries and other classes to execute any program successfully.
+JRE doesn’t contain any development tools like java compiler, debugger etc.
+If you want to execute any java program, you should have JRE installed.
+
+Q5.Which class is the superclass of all classes  in java?
+Answer:
+java.lang.Object is the root class for all the java classes.
+We don’t need to extend this class explicitly.
+
+Q6.Why Java doesn’t support multiple inheritance?
+Answer:
+Java doesn’t support multiple inheritance in classes because of “Diamond Problem”.
+However multiple inheritance is supported in interfaces.
+An interface can extend multiple interfaces because they just declare the methods and implementation will be present in the implementing class.
+So there is no issue of diamond problem with interfaces.
+
+Q7.Why Java is not pure Object Oriented language?
+Answer:
+Java is not said to be pure object oriented because it support primitive types such as int, byte, short, long etc.
+I believe, it brings simplicity to the language while writing our code.
+Obviously java could have wrapper objects for the primitive types but just for the representation, they would not have provided any benefit.
+For all the primitive types we have wrapper classes such as Integer, Long etc that provides some additional methods.
+
+Q8.What is difference between path and classpath variables?
+Answer:
+PATH is an environment variable used by operating system to locate the executables.
+If any executable to be found by OS, we need to add the directory location in the PATH variable.
+Classpath is specific to java and used by java executables to locate class files.
+We can provide the classpath location while running java application and it can be a directory, ZIP files, JAR files etc.
+
+Q9.What is the importance of main method in Java?
+Answer:
+main() method is the entry point of any standalone java application.
+The syntax of main method is public static void main(String args[]).
+main method is public and static so that java can access it without initializing the class.
+The input parameter is an array of String through which we can pass runtime arguments to the java program.
+
+Q10.What is overloading and overriding in java?
+Answer:
+When we have more than one method with same name in a single class but the arguments are different, then it is called as method overloading.
+Overriding concept comes in picture with inheritance when we have two methods with same signature, one in parent class and another in child class.
+We can use @Override annotation in the child class overridden method to make sure if parent class method is changed, so as child class.
+
+Q11.Can we overload main method?
+Answer:
+Yes, we can have multiple methods with name "main" in a single class.
+However if we run the class, java runtime environment will look for main method with syntax as public static void main(String args[]).
+
+Q12.Can we have multiple public classes in a java source file?
+Answer:
+We can't have more than one public class in a single java source file.
+A single source file can have multiple classes that are not public.
+The single source file may or may not have public class, but if any public class name should be same as source file name.
+
+Q13.What is Java Package and which package is imported by default?
+Answer:
+Java package is the mechanism to organize the java classes by grouping them.
+The grouping logic can be based on functionality or modules based.
+A java class fully classified name contains package and class name.
+For example, java.lang.Object is the fully classified name of Object class that is part of java.lang package.
+java.lang package is imported by default and we don't need to import any class from this package explicitly.
+
+Q14.What are access modifiers in java?
+Answer:
+Java provides access control through public, private and protected access modifier keywords.
+When none of these are used, it's called default access modifier.
+A java class can only have public or default access modifier.
+
+Q15.What is final keyword?
+Answer:
+The final keyword is used with Class to make sure no other class can extend it, for example String class is final and we can't extend it.
+We can use final keyword with methods to make sure child classes can't override it.
+The final keyword can be used with variables to make sure that it can be assigned only once.
+However the state of the variable can be changed, for example we can assign a final variable to an object only once but the object variables can change later on.
+Java interface variables are by default final and static.
+
+Q16.What is static keyword?
+Answer:
+static keyword can be used with class level variables to make it global i.e all the objects will share the same variable.
+static keyword can be used with methods also.
+A static method can access only static variables of class and invoke only static methods of the class.
+
+Q17.What is finally and finalize in java?
+Answer:
+finally block is used with try-catch to put the code that you want to get executed always, even if any exception is thrown by the try-catch block.
+finally block is mostly used to release resources created in the try block.
+finalize() is a special method in Object class that we can override in our classes.
+This method get's called by garbage collector when the object is getting garbage collected.
+This method is usually overridden to release system resources when object is garbage collected.
+
+Q18.Can we declare a class as static?
+Amswer:
+We can’t declare a top-level class as static however an inner class can be declared as static.
+If inner class is declared as static, it's called static nested class.
+Static nested class is same as any other top-level class and is nested for only packaging convenience.
+
+Q19.What is static import?
+Answer:
+If we have to use any static variable or method from other class, usually we import the class and then use the method/variable with class name.
+Example:
+	import java.lang.Math;
+	//inside class
+	double test = Math.PI * 5;
+We can do the same thing by importing the static method or variable only and then use it in the class as if it belongs to it.
+Example:
+	import static java.lang.Math.PI;
+	//no need to refer class now
+	double test = PI * 5;
+Use of static import can cause confusion, so it’s better to avoid it. Overuse of static import can make your program unreadable and unmaintainable.
+
+Q20.What is try-with-resources in java?
+Answer:
+One of the Java 7 features is try-with-resources statement for automatic resource management.
+Before Java 7, there was no auto resource management and we should explicitly close the resource.
+Usually, it was done in the finally block of a try-catch statement.
+This approach used to cause memory leaks when we forgot to close the resource.
+From Java 7, we can create resources inside try block and use it.
+Java takes care of closing it as soon as try-catch block gets finished. 
+
+Q21.What is multi-catch block in java?
+Answer:
+One of the improvement of Java 7 was multi-catch block where we can catch multiple exceptions in a single catch block.
+This makes our code shorter and cleaner when every catch block has similar code.
+If a catch block handles multiple exceptions, you can separate them using a pipe (|) and in this case exception parameter (ex) is final, so you can’t change it.
+
+Q22.What is static block?
+Answer:
+Java static block is the group of statements that gets executed when the class is loaded into memory by Java ClassLoader.
+It is used to initialize static variables of the class.
+Mostly it’s used to create static resources when class is loaded.
+
+Q23.What is an interface?
+Answer:
+Interfaces are core part of java programming language and used a lot in java design patterns, frameworks and most of the tools.
+Interfaces provide a way to achieve abstraction in java and used to define the contract for the subclasses to implement.
+Interfaces are good for starting point to define Type and create top level hierarchy in our code.
+Since a java class can implements multiple interfaces, it's better to use interfaces as super class in most of the cases. 
+
+Q24.What is an abstract class?
+Answer:
+Abstract classes are used in java to create a class with some default method implementation for subclasses.
+An abstract class can have abstract method without body and it can have methods with implementation also.
+abstract keyword is used to create an abstract class.
+Abstract classes can't be instantiated and mostly used to provide base for sub-classes to extend and implement the abstract methods 
+and override or use the implemented methods in abstract class.
+
+Q25.What is the difference between abstract class and interface?
+Answer:
+abstract keyword is used to create an abstract class whereas interface is the keyword for interfaces.
+Abstract classes can have method implementations whereas interfaces can't.
+A class can extend only one abstract class but it can implement multiple interfaces.
+We can run abstract class if it has main() method whereas we can’t run an interface.
+
+Q26.Can an interface implement or extend another interface?
+Answer:
+Interfaces don't implement another interface, but they can extend it.
+Since interfaces can't have method implementations, there is no issue of diamond problem.
+That's why we have multiple inheritance in interfaces i.e an interface can extend multiple interfaces.
+From Java 8 onwards, interfaces can have default method implementations.
+So to handle diamond problem when a common default method is present in multiple interfaces,
+it’s mandatory to provide implementation of the method in the class implementing them.
+
+Q27.What is Marker interface?
+Answer:
+A marker interface is an interface without any method but used to force some functionality in implementing classes by Java.
+Some of the well known marker interfaces are Serializable and Cloneable.
+
+Q28.What are Wrapper classes?
+Answer:
+Java wrapper classes are the Object representation of eight primitive types in java.
+All the wrapper classes in java are immutable and final.
+Java 5 autoboxing and unboxing allows easy conversion between primitive types and their corresponding wrapper classes.
+
+Q29.What is Enum in Java?
+Answer:
+Enum was introduced in Java 1.5 as a new type whose fields consists of fixed set of constants.
+For example, in Java we can create Direction as enum with fixed fields as EAST, WEST, NORTH, SOUTH.
+enum is the keyword to create an enum type and similar to class.
+Enum constants are implicitly static and final.
+
+Q30.What is Java Annotations?
+Answer:
+Java Annotations provide information about the code and they have no direct effect on the code they annotate.
+Annotations are introduced in Java 5. Annotation is metadata about the program embedded in the program itself.
+It can be parsed by the annotation parsing tool or by compiler.
+We can also specify annotation availability to either compile time only or till runtime also.
+Java Built-in annotations are @Override, @Deprecated and @SuppressWarnings. 
+
+Q31.What is Java Reflection API? Why it’s so important to have?
+Answer:
+Java Reflection API provides ability to inspect and modify the runtime behavior of java application.
+We can inspect a java class, interface and enum and get their methods and field details.
+Reflection API usage can break the design pattern such as Singleton pattern by invoking the private constructor i.e violating the rules of access modifiers.
+Frameworks like Spring and Hibernate or servers such as Tomcat and JBoss are using Reflection API extensivily.
+They invoke the appropriate methods and instantiate classes through reflection API and use it a lot for other processing.
+
+Q32.What is composition in java?
+Answer:
+Composition is the design technique to implement has-a relationship in classes.
+We can use Object composition for code reuse.
+Java composition is achieved by using instance variables that refers to other objects.
+Benefit of using composition is that we can control the visibility of other object to client classes and reuse only what we need. 
+
+Q33.What is the benefit of Composition over Inheritance?
+Answer:
+One of the best InterviewPreparations of java programming is to “favor composition over inheritance”. Some of the possible reasons are:
+a.Any change in the superclass might affect subclass even though we might not be using the superclass methods.
+  For example, if we have a method test() in subclass and suddenly somebody introduces a method test() in superclass, we will get compilation errors in subclass.
+  Composition will never face this issue because we are using only what methods we need.
+b.Inheritance exposes all the super class methods and variables to client and if we have no control in designing superclass, it can lead to security holes.
+  Composition allows us to provide restricted access to the methods and hence more secure.
+c.We can get runtime binding in composition where inheritance binds the classes at compile time. So composition provides flexibility in invocation of methods.
+
+Q34.How to sort a collection of custom Objects in Java?
+Answer:
+We need to implement Comparable interface to support sorting of custom objects in a collection.
+Comparable interface has compareTo(T obj) method which is used by sorting methods and by providing this method implementation, 
+we can provide default way to sort custom objects collection.
+However, if you want to sort based on different criteria, such as sorting an Employees collection based on salary or age, 
+then we can create Comparator instances and pass it as sorting methodology. 
+
+Q35.What is inner class in java?
+Answer:
+We can define a class inside a class and they are called nested classes.
+Any non-static nested class is known as inner class.
+Inner classes are associated with the object of the class and they can access all the variables and methods of the outer class.
+Since inner classes are associated with instance, we can't have any static variables in them.
+We can have local inner class or anonymous inner class inside a class. 
+
+Q36.What is anonymous inner class?
+Answer:
+A local inner class without name is known as anonymous inner class.
+An anonymous class is defined and instantiated in a single statement.
+Anonymous inner class always extend a class or implement an interface.
+Since an anonymous class has no name, it is not possible to define a constructor for an anonymous class.
+Anonymous inner classes are accessible only at the point where it is defined.
+
+Q37.What is Classloader in Java?
+Answer:
+Java Classloader is the program that loads byte code program into memory when we want to access any class.
+We can create our own classloader by extending ClassLoader class and overriding loadClass(String name) method.
+
+Q38.What are different types of classloaders?
+Answer:
+There are three types of built-in Class Loaders in Java:
+Bootstrap Class Loader	: It loads JDK internal classes, typically loads rt.jar and other core classes.
+Extensions Class Loader	: It loads classes from the JDK extensions directory, usually $JAVA_HOME/lib/ext directory.
+System Class Loader		: It loads classes from the current classpath that can be set while invoking a program using -cp or -classpath command line options.
+
+Q39.What is ternary operator in java?
+Answer:
+Java ternary operator is the only conditional operator that takes three operands.
+It's a one liner replacement for if-then-else statement and used a lot in java programming.
+We can use ternary operator if-else conditions or even switch conditions using nested ternary operators.
+
+Q40.What does super keyword do?
+Answer:
+super keyword can be used to access super class method when you have overridden the method in the child class.
+We can use super keyword to invoke super class constructor in child class constructor but in this case it should be the first statement in the constructor method.
+
+Q41.What is break and continue statement?
+Answer:
+We can use break statement to terminate for, while, or do-while loop.
+We can use break statement in switch statement to exit the switch case.
+We can use break with label to terminate the nested loops.
+The continue statement skips the current iteration of a for, while or do-while loop.
+We can use continue statement with label to skip the current iteration of outermost loop.
+
+Q42.What is this keyword?
+Answer:
+this keyword provides reference to the current object and it’s mostly used to make sure that object variables are used, not the local variables having same name.
+We can also use this keyword to invoke other constructors from a constructor.
+
+Q43.What is default constructor?
+Answer:
+No argument constructor of a class is known as default constructor.
+When we don't define any constructor for the class, java compiler automatically creates the default no-args constructor for the class.
+If there are other constructors defined, then compiler won’t create default constructor for us.
+
+Q44.Can we have try without catch block?
+Answer:
+Yes, we can have try-finally statement and hence avoiding catch block.
+
+Q45.What is Garbage Collection?
+Answer:
+Garbage Collection is the process of looking at heap memory, identifying which objects are in use and which are not, and deleting the unused objects.
+In Java, process of deallocating memory is handled automatically by the garbage collector.
+We can run the garbage collector with code Runtime.getRuntime().gc() or use utility method System.gc().
+
+Q46.What is Serialization and Deserialization?
+Answer:
+We can convert a Java object to a Stream that is called Serialization.
+Once an object is converted to Stream, it can be saved to file or send over the network or used in socket connections.
+The object should implement Serializable interface and we can use java.io.ObjectOutputStream to write object to file or to any OutputStream object.
+The process of converting stream data created through serialization to Object is called deserialization.
+
+Q47.How to run a JAR file through command prompt?
+Answer:
+We can run a jar file using java command but it requires Main-Class entry in jar manifest file.
+Main-Class is the entry point of the jar and used by java command to execute the class.
+
+Q48.What is the use of System class?
+Answer:
+Java System Class is one of the core classes.
+One of the easiest way to log information for debugging is System.out.print() method.
+System class is final so that we can't subclass and override it's behavior through inheritance.
+System class doesn't provide any public constructors, so we can't instantiate this class and that's why all of it's methods are static.
+Some of the utility methods of System class are for array copy, get current time, reading environment variables.
+
+Q49.What is instanceof keyword?
+Answer:
+We can use instanceof keyword to check if an object belongs to a class or not.
+We should avoid it's usage as much as possible.
+
+Q50.Can we use String with switch case?
+Answer:
+Yes. We cna use since Java 7.
+
+Q51.Java is Pass by Value or Pass by Reference?
+Answer:
+
+Q52.What is difference between Heap and Stack Memory?
+Answer:
+Heap memory is used by all the parts of the application whereas stack memory is used only by one thread of execution.
+Whenever an object is created, it's always stored in the Heap space and stack memory contains the reference to it.
+Stack memory only contains local primitive variables and reference variables to objects in heap space.
+Memory management in stack is done in LIFO manner whereas it's more complex in Heap memory because i's used globally.
+
+Q53.What is String in Java? Is String a data type?
+Answer:
+String is a Class in java and defined in java.lang package.
+It's not a primitive data type like int and long.
+String class represents character Strings.
+String is immutable and final in Java and JVM uses String Pool to store all the String objects.
+Some other interesting things about String is the way we can instantiate a String object using double quotes and overloading of "+" operator for concatenation.
+
+Q54.What are different ways to create String Object?
+Answer:
+We can create String object using new operator like any normal java class or we can use double quotes to create a String object.
+There are several constructors available in String class to get String from char array, byte array, StringBuffer and StringBuilder.
+String str = new String("abc");
+String str1 = "abc";
+When we create a String using double quotes, JVM looks in the String pool to find if any other String is stored with same value.
+If found, it just returns the reference to that String object else it creates a new String object with given value and stores it in the String pool.
+When we use new operator, JVM creates the String object but don't store it into the String Pool.
+We can use intern() method to store the String object into String pool or return the reference if there is already a String with equal value present in the pool.
+
+Q55.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

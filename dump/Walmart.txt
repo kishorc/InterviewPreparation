@@ -1,0 +1,234 @@
+
+Senior Software Engineer Interview
+----------------------------------
+What’s been your most challenging project or technology in the last two years?  
+
+What are you most proud of on your resume?  
+
+Explain the gap in your resume.  
+
+why walmart? why merchandising?  
+
+
+UI:
+(whiteboard)About building a form and submit via http request  
+
+(whiteboard) Explain promise, event loop, seTimeout()...etc  
+
+(whiteboard) About big O, binary search, and a function which add two string together
+
+
+A/B testing (bucket tests or split-run testing
+SQL on Windows functions majorly, Basic business case studies, AB testing case studies.
+In AB test questions, you are asked to design KPI for a product rollout, like their success metrics and operational metrics. 
+
+
+There was test case that was failing for wrong reason make it fail for the right reason and then make it pass. (RGG)  
+
+
+Explain solution to the programming assignment they gave a few days ago  
+
+Here is a screenshot of a walmart product, tell me what you would improve about it.  
+
+
+
+Design system to stream stock prices on multiple devices (mobile, tab, PC etc)  
+
+
+What would be criteria to select database?  
+
+What is throughput? What are numbers like?
+
+
+
+Name a time when you went "above and beyond" on a task  
+
+Name a time when you had to work with a difficult person on a team and how did you handle it?  
+
+JavaScript fundamental questions  
+
+Behavioural, case study, technical SQL and model building assessment, take home test, not in that order.  
+
+Binary Search, Linear Search and matrix problem  
+
+Runtime for searching in trees? 
+
+linked lists, hashtable, stack, system design
+
+Questions on designing. Core knowledge test on understanding java and databases. 
+
+finding the row with the max value within a filtered group, and the group had to be composed of multiple tables.  
+
+Implements Queue using stack
+Count Inversions in an array  
+
+Design online, multi-tenant payment system
+BTree, recursive problem
+Java fundamentals  
+
+During Phone screen 1. I was asked about converting string into CamelCase.
+Onsite interview. 1.How does HTTP and HTTPS work? 
+2. What is a man in middle attack? 
+3. how do you know at server level if the request is coming for mobile or for server? 
+4. Explain akamai logic if you know of anything. 
+5. flatten the given array (except Object of key and value pair should be pushed as it is) 
+6. design question on Canvas. 
+7. explai SEO strategy 
+8. What have you done to improve performance. 
+8. what backend languages are you comfortable with. 
+9 can you write palindrome program in PHP (Since I said PHP is a language i have worked on in past) 
+10. what is a difference in method and function. 
+11. calculate the amount of water be help between any 2 rows and sum it up.  
+
+Questions were focused on algorithms, data structures, big data technologies, high-level design and lots of deep dive technical questions around previous projects.  
+Describe a difficult customer situation and what did you do to resolve the issue  
+
+
+How many sub-spaces can 4 lines divide in 2D? How many sub-spaces can 4 hyperplanes divide in 3D?  
+
+How to divide n numbers into k clusters to minimize the sum of in-group errors?  
+
+What would you do when an engineer really doesn't agree with your design?  
+
+
+You have 2 not sorted integer Lists. Write a code to merge them with unique integers in sorted order.
+For example 1, 4, 3 and 2, 4, 5 result will be 1, 2, 3, 4, 5  
+
+Sparse matrix traversal  
+
+Interviewer asked me to write code to find the maximum continuous sum in a set of integers in an input array.
+
+i/p: {-2,5,-1,4,-3} ; output is 8 with 5,-1,4  
+
+- what are jax-WS, Jax-RS services
+-what is sonar code anaylaser
+-multhreading scenario in web services and application server tomcat
+-Implement multi-threading
+-linked list reverse, find mid of linked list, string reverse recursively
+-Hashmaps and internal working, hashcode
+-data structures, trees, complexities of algorithms and asked to reduce the complexities
+-Spring MVC, Dependancy Injection. Was asked to explain it with the help of a use case scenario
+-Asked about hibernate, persistence layer  
+
+Dedup a given string.  
+
+Give me all the permutations of valid palindrome in a string?
+
+I strongly believe this is highly flawed question at least from example expected output. I hope some one can prove me wrong.
+
+it is a combination of 3 different problems
+   1. get all possible subsets of a string
+   2. check those subsets for possibility of a palindrome
+   3. get permutations of valid palindromes
+
+I highly doubt that this can be solved in a span of… 
+Show More
+Find count of set bits in a 32 bit buffer
+
+Easy if you know bitwise operations but last time I encountered bitwise was 10 years back in school.  
+
+
+Parse web log with regular expression  
+
+Internship interview, with one phone call, a couple interactions with HR/Recruiting, and a day of on site interviews. Asked great questions, got to know the product and potential project, and the office is simply amazing!
+
+What is the difference between '==' & '===' in javascript.  
+
+Clone a object in javascript.  
+
+Explain async operation.On a click of a button initiates two XHR request. How would you provide a status updated when two XHR request has been completed.  
+
+Basic Algorithms  
+
+
+Non Technical:
+----------------
+Build dynamic pricing for Walmart.com.  
+ 
+Explain how the test numbers are created on their internal tool?  
+
+Why product management?  
+
+How would retail industry be 5 years from now ?  
+
+How do you deliver bad news to your team ?  
+
+How do you deliver bad news to your team ?  
+
+If one of the steps you take is in line with customer needs but not in line with your goals how would you handle it ?  
+
+Think of metrics that would be important for your customers  
+
+What is one thing about you that I can't get from your resume?  
+
+Challenging analytical problem which make you think a lot Cases on Supply chain
+
+Tell me a time you went above and beyond? Tell me a time when you took a positive risk?
+
+evaluate this case study  
+
+Why eCommerce?  
+
+Why do you want to work at Walmart?  
+
+Tell me about a time you took a risk.  
+
+What would you do to improve our eCommerce site?  
+
+What is a time you undertook a leadership role?  
+
+What is a time you overcame a challenge in a group setting?  
+
+Why are you interested in eCommerce?  
+
+Lots of "tell me about a time..." questions and standard behavioral questions.  
+
+What was your greatest accomplishment in your last role?  
+
+Tell me a time you brought a new idea to your company.  
+
+Tell me a time where you had to think outside the box.  
+
+Tell me a time you brought an idea no one agreed on.  
+
+Tell me about a team project when you had to work with someone difficult.  
+
+what feature of Walmart does it attract you here?  
+
+What makes you an entrepreneur?  
+
+Defend your reasons for taking that specific approach at your internship.  
+
+You are the CEO at Walmart E-commerce. What should Walmart do to increase sales?
+
+Respecting the NDA. But easy to answer if you have InterviewPreparationd enough.  
+
+Taking a look at our search feature, what would you propose we improve and build?
+
+A lot of questions on questions probing my thoughts on how I would solve various problem related to retail e-commerce/omni-channel space.  
+
+Imagine you come in one morning and sales have tanked for a specific category. What action would you take and what metrics would you use to break down the problem? (They must really like this question because 3 out of 6 interviewers asked it.)  
+
+Some SQL. They did not ask any specific questions, just asked past experience.  
+
+why walmart?
+
+How will you manage low performing employees?  
+
+OTB experience?  
+
+Was supposed to use collabedit for coding tests I assume.  
+
+First asked about projects and internships. Then asked about JavaScript knowledge, design two classes, one inherits another; what is closure.
+a simple print question. eg. given [1,2,3] print [1-1] [1-2] [1-3] [2-2] [2-3] [3-3]  
+
+
+
+How do you deal with difficult people? Explain a time you failed and what you took from it? Tell me about a success in your career. What is the probability of rolling a 10, 11 or 12 with two standard 6 sided die? Probability of being dealt a pair of cards from a standard 52 card deck?  
+
+
+
+
+
+
+

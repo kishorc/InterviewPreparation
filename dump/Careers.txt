@@ -1,0 +1,196 @@
+https://www.facebook.com/careers/jobs/a0I1200000LSOkpEAH/?q=java%20developer&location=menlo-park
+
+http://www.java-samples.com/showtutorial.php?tutorialid=1733
+
+http://www.java-samples.com/showtutorial.php?tutorialid=1733
+
+http://www.mkyong.com/java/java-how-to-print-a-pyramid/
+
+• Differences between one type of java collection and another collection class or interface
+• What a java specific keyword means
+• Why java uses a Java Virtual Machine
+Here are J2EE questions they usually can't answer:
+• What is a servlet / EJB / JSP / some other basic J2EE component?
+
+What is the Spring framework, and explain IOC (Inversion Of Control)
+How JVM internally works.?
+How Class loaders work.?
+How many controllers are there in spring MVC?
+When a class became object?
+How volatile works.
+concurrency questions like what is deadlock and difference between deadlock, livelock, starvation, etc...
+hy to use Java? Why do we need OOPS concepts ? Explain with real world example. Encapsulation vs Datahiding etc
+A small problem statement, given Google access and a week, design and build solution! Pair program on that solution with another developer and the ln consider to hire or not!
+air program gives an insight on the person and skills. Questions mentioned might or might not be answered, but you'd never be able to judge skills by your process
+Why would anyone ask about EJBs or JSPs?? No serious business that wants to stay competitive uses those technologies. Stay focused on what YOU will use and what problems YOU expect to solve with this developer.
+
+  
+Anyone looking for java angular jquery web services + oracle data base contract position for 4 to 6 months ?
+ Ashwin.21a@gmail.com
+ 
+ 
+ https://www.greatschools.org/california/fremont/9312-Kimber-Hills-Academy/
+ 
+ Google, Amazon, Microsoft or Facebook.
+ 
+ stacks, queues, linked list, arrays, hash tables, heaps, trees, and graph. 
+
+Read more: http://javarevisited.blogspot.com/2015/07/5-data-structure-and-algorithm-books-best-must-read.html#ixzz4phw4wfbQ
+
+C, C++, Java or Python
+
+1. Introduction to Algorithms by Thomas H. Cormen
+   https://www.amazon.com/Introduction-Algorithms-Edition-Thomas-Cormen/dp/0262033844/ref=as_at?creativeASIN=0262033844&linkCode=w61&imprToken=tT.RO131rFmgB2VTsgEp3A&slotNum=0&tag=javamysqlanta-20
+   
+2. Algorithms Unlocked by Thomas Cormen
+   https://www.amazon.com/Algorithms-Unlocked-Thomas-H-Cormen/dp/0262518805/ref=as_at?creativeASIN=0262518805&linkCode=w61&imprToken=tT.RO131rFmgB2VTsgEp3A&slotNum=2&tag=javamysqlanta-20
+
+3. 
+
+https://www.linkedin.com/jobs/search/?keywords=Senior%20Java%20Developer&location=San%20Ramon%2C%20California&locationId=PLACES.us.7-1-0-7-28
+
+Description	Resource	Path	Location	Type
+Project 'xws' is missing required library: 'C:/Users/danderson/.m2/repository/org/apache/commons/
+com.springsource.org.apache.commons.lang/2.6.0/com.springsource.org.apache.commons.lang-2.6.0.jar'	xws		Build path	Build Path Problem
+
+AutoDesk:
+ssr / P1
+
+https://www.linkedin.com/company/2190/jobs/
+
+https://blogs.oracle.com/java/jax-rs-json-javaee
+
+
+https://examples.javacodegeeks.com/enterprise-java/spring/spring-security-4-tutorial/
+https://examples.javacodegeeks.com/enterprise-java/spring/mvc/spring-mvc-requestmapping-example/
+https://examples.javacodegeeks.com/enterprise-java/spring/spring-jdbctemplate-crud-operations-tutorial/
+https://examples.javacodegeeks.com/core-java/apache/ant/apache-ant-java-debug-example/
+
+https://www.javacodegeeks.com/2017/08/difference-restcontroller-controller-annotation-spring-mvc-rest.html
+https://www.javacodegeeks.com/2017/08/docker-java-developers-introduction.html
+https://www.javacodegeeks.com/2017/09/building-restful-service-using-spring-boot.html
+https://www.javacodegeeks.com/2017/09/java-8-sorting-hashmap-values-ascending-descending-order.html
+https://www.javacodegeeks.com/2017/09/global-exception-handling-controlleradvice.html
+https://www.javacodegeeks.com/2017/09/alternatives-agile-lean-roadmapping-part-5-product-value-team.html
+https://www.javacodegeeks.com/2017/09/gc-explained-collectors-overview.html
+https://www.javacodegeeks.com/2017/09/secure-spring-microservices-architecture-spring-security-jwts-juiser-okta.html
+https://www.javacodegeeks.com/2017/09/deep-dive-distributed-service-registry.html
+https://www.javacodegeeks.com/2017/09/create-new-git-repository-host-bitbucket.html
+https://www.javacodegeeks.com/2017/09/idiomatic-concurrency-flatmap-vs-parallel-rxjava-faq.html
+https://www.javacodegeeks.com/2017/09/gracefully-shutting-java-containers-double-check.html
+
+http://javarevisited.blogspot.sg/2017/01/can-we-make-array-volatile-in-java.html#axzz4rZjpzcV7
+http://javarevisited.blogspot.sg/2017/02/how-to-consume-json-from-restful-web-services-Spring-RESTTemplate-Example.html
+http://javarevisited.blogspot.sg/2017/01/string-replaceall-example-how-to-replace-all-characters-and-substring.html#axzz4rZjpzcV7
+http://javarevisited.blogspot.sg/2017/01/5-free-ocejwcd-6-mock-exam-1z0-899.html
+http://javarevisited.blogspot.sg/2017/01/difference-between-extends-and-implements-keywords-in-java.html#axzz4r9r7atOR
+http://javarevisited.blogspot.sg/2017/01/how-to-create-localdatetime-in-java-8.html
+http://javarevisited.blogspot.sg/2011/05/example-of-arraylist-in-java-tutorial.html#axzz4ruBBf6y3
+http://javarevisited.blogspot.sg/2016/01/how-does-java-hashmap-or-linkedhahsmap-handles.html
+http://javarevisited.blogspot.sg/2013/03/5-good-books-to-learn-spring-framework-mvc-java-programmer.html
+http://javarevisited.blogspot.sg/2017/06/how-spring-mvc-framework-works-web-flow.html#axzz4s6qWe5Tj
+http://javarevisited.blogspot.sg/2017/02/top-5-books-to-learn-rest-and-restful-web-services-in-java.html#axzz4s0Rdcq5P
+http://javarevisited.blogspot.sg/2017/01/difference-between-for-loop-and-enhanced-forlop-in-java.html
+http://javarevisited.blogspot.sg/2012/06/jdbc-database-connection-pool-in-spring.html
+http://javarevisited.blogspot.sg/2013/01/data-access-object-dao-design-pattern-java-tutorial-example.html#axzz4s6N7Y7Gb
+http://javarevisited.blogspot.sg/2017/03/what-is-method-references-in-java-8-example.html#axzz4sZN54XFQ
+http://javarevisited.blogspot.sg/2017/04/does-making-all-fields-final-makes-a-class-Immutable-in-Java.html#axzz4rZnFiEOx
+http://javarevisited.blogspot.sg/2013/06/find-cpu-and-memory-used-by-java-solaris-prstat-command-example.html#axzz4sF0K5VVE
+http://javarevisited.blogspot.sg/2017/03/difference-between-stack-and-queue-data-structure-in-java.html#axzz4rZnFiEOx
+http://javarevisited.blogspot.com/2017/02/difference-between-comparison-quicksort-and-non-comparison-counting-sort-algorithms.html#ixzz4sF5du9Lt
+http://javarevisited.blogspot.sg/2017/03/how-to-enclose-list-of-values-into-single-quotes-using-microsoft-excel-for-sql-query.html#axzz4sf9Mi1y7
+http://javarevisited.blogspot.sg/2017/03/difference-between-sql-tsql-and-plsql.html
+http://javarevisited.blogspot.sg/2017/02/17-examples-of-calendar-and-date-in-java.html#axzz4sNmbzgla
+http://javarevisited.blogspot.sg/2017/08/how-to-remove-key-value-pair-from-map-iteration-java-example.html
+http://javarevisited.blogspot.sg/2017/06/how-to-prepare-for-spring-framework-certifications.html
+http://javarevisited.blogspot.sg/2012/05/what-is-bean-scope-in-spring-mvc.html#axzz4skZhRuuW
+http://javarevisited.blogspot.sg/2011/08/unix-sort-command-example-tutorial.html#axzz4skZhRuuW
+http://javarevisited.blogspot.sg/2017/08/10-differences-between-stringbuffer-and-StringBuilder-in-java.html#axzz4sp2MupPE
+http://javarevisited.blogspot.sg/2017/03/difference-between-first-and-second-level-cache-in-Hibernate.html
+
+
+http://www.java67.com/2016/10/how-to-print-leaf-nodes-of-binary-tree-without-recursion-in-java.html
+http://www.java67.com/2016/10/binary-tree-post-order-traversal-in.html
+http://www.java67.com/2017/08/how-to-create-concurrenthashset-from-concurrentHashMap-Java-example.html
+http://www.java67.com/2016/10/how-to-add-and-subtract-two-matrices-in-java.html
+http://www.java67.com/2016/10/5-difference-between-stringbuffer.html
+http://www.java67.com/2016/10/3-ways-to-convert-string-to-json-object-in-java.html
+http://www.java67.com/2017/08/top-17-sql-and-unix-interview-questions.html
+http://www.java67.com/2017/07/how-to-find-all-files-containing-matching-text-grep-command-example.html
+http://www.java67.com/2016/01/how-to-implement-singly-linked-list-in-java-using-generics-example.html
+
+https://developers.redhat.com/blog/2017/06/30/5-things-to-know-about-reactive-programming/
+https://developers.redhat.com/blog/2017/09/06/continuous-integration-a-typical-process/
+
+https://devops.com/implement-microservice-architecture/
+
+http://www.java67.com/2012/08/can-we-override-private-method-in-java.html
+
+http://javarevisited.blogspot.sg/2011/05/unix-command-interview-questions.html#axzz4rFrUf9UJ
+http://www.java67.com/2016/01/how-to-initialize-hashmap-with-values-in-java.html
+http://javarevisited.blogspot.sg/2017/03/how-to-implement-stack-in-java-using-array-example.html#axzz4sTPAluX7
+https://examples.javacodegeeks.com/enterprise-java/spring/mvc/sending-email-spring-mvc-example/
+
+https://www.pluralsight.com/courses/spring-mvc4-introduction?utm_medium=affiliate&utm_source=880419
+http://www.thejavaprogrammer.com/selection-sort-java/
+
+mvn archetype:generate -DgroupId=com.test.rest -DartifactId=restexam -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+https://www.youtube.com/channel/UCmpTv5FyS1ECVo4SY4Be4Ew
+
+https://dzone.com/articles/master-docker-the-complete-toolkit-official-resour
+https://dzone.com/articles/the-legacy-developers-guide-to-java-9
+
+https://paypal.wd1.myworkdayjobs.com/jobs/6/refreshFacet/318c8bb6f553100021d223d9780d30be
+
+Error resolving version for plugin 'org.apache.maven.plugins:maven-eclipse-plugin' from the repositories
+https://www.pluralsight.com/courses/spring-security-fundamentals?utm_medium=affiliate&utm_source=880419
+https://geeks-mexico.com/2017/09/11/spring-boot-rest-error-handling/
+
+https://www.pluralsight.com/courses/spring-boot-first-application?utm_medium=affiliate&utm_source=880419
+
+
+I will be available between 10.00 A.M to 5.00 p.m PST except 11.15 a.m to 11.30 a.m.
+
+my contact number : 732 485 4085
+
+
+[11:25 AM, 10/16/2017] Sat Jaya Chittiprolu: eBay is hiring in bulk(200+)  for different positions(not just for java). You can find job details and job description at @ https://lnkd.in/fs3s5bn 
+https://lnkd.in/f7uJ-Qa 
+If anyone or ur friends interested share this . 
+You may can add rguddeti@ebay.com as referral mail id.
+[11:26 AM, 10/16/2017] Sat Jaya Chittiprolu: My friend is working there and there are multiple openings and they are planning to close by November
+
+
+crashcourse.com
+https://www.youtube.com/user/crashcoursekids
+
+ 
+curiosity.com
+https://www.youtube.com/user/supercuriositytv
+
+Kurzgesagt
+https://www.youtube.com/user/Kurzgesagt
+
+Vsauce
+https://www.youtube.com/user/Vsauce
+https://www.youtube.com/user/Vsauce2
+https://www.youtube.com/user/Vsauce3
+
+Movies:
+https://www.youtube.com/user/everyframeapainting
+
+
+
+http://www.java67.com/2016/09/5-difference-between-iterator-and-ListIterator-in-java.html#ixzz51lJane2E
+
+
+https://www.javacodegeeks.com/2015/01/fail-fast-validations-using-java-8-streams.html?utm_content=buffer0760a&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+
+http://www.java67.com/2013/07/difference-between-truncate-vs-delete-SQL-Command-database-interview-question.html#ixzz51lCVaBuD
+
+https://www.javacodegeeks.com/2017/12/some-factory-examples.html
+
+https://www.javacodegeeks.com/2015/01/improving-lock-performance-in-java.html?utm_content=bufferc6319&utm_medium=social&utm_source=facebook.com&utm_campaign=buffer
+
+Java Program to find all Permutations of a String

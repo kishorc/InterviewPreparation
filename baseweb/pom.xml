@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.kru.ck.base</groupId>
+		<artifactId>InterviewPreparation</artifactId>
+		<version>1.0</version>
+	</parent>
+
+	<artifactId>baseweb</artifactId>
+	<packaging>war</packaging>
+	<name>baseweb Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.kru.ck.base</groupId>
+			<artifactId>algorithms</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.kru.ck.base</groupId>
+			<artifactId>datastructuers</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.kru.ck.base</groupId>
+			<artifactId>designpatterns</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.kru.ck.base</groupId>
+			<artifactId>javalang</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.kru.ck.base</groupId>
+			<artifactId>threads</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.kru.ck.base</groupId>
+			<artifactId>javautil</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.kru.ck.base</groupId>
+			<artifactId>database</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>3.0-alpha-1</version>
+			<scope>provided</scope>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<finalName>baseweb</finalName>
+	</build>
+
+</project>

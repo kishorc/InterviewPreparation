@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+	<employee type="FTE">
+		<name>Raamaa</name>
+		<id>111</id>
+		<age>25</age>
+		<address type="residence">
+			<street1>Street1</street1>
+			<street2></street2>
+			<city>Fremont</city>
+			<state>CA</state>
+			<zip>94538</zip>
+		</address>
+		<address type="office">
+			<street1>Street1</street1>
+			<street2></street2>
+			<city>Fremont</city>
+			<state>CA</state>
+			<zip>94538</zip>
+		</address>
+		<address type="mailing">
+			<street1>Street1</street1>
+			<street2></street2>
+			<city>Fremont</city>
+			<state>CA</state>
+			<zip>94538</zip>
+		</address>
+	</employee>
+	<employee type="Contract">
+		<name>Raajaa</name>
+		<id>111</id>
+		<age>25</age>
+		<address type="residence">
+			<street1>Street1</street1>
+			<street2></street2>
+			<city>Fremont</city>
+			<state>CA</state>
+			<zip>94538</zip>
+		</address>
+		<address type="office">
+			<street1>Street1</street1>
+			<street2></street2>
+			<city>Fremont</city>
+			<state>CA</state>
+			<zip>94538</zip>
+		</address>
+		<address type="mailing">
+			<street1>Street1</street1>
+			<street2></street2>
+			<city>Fremont</city>
+			<state>CA</state>
+			<zip>94538</zip>
+		</address>
+	</employee>
+</employees>
