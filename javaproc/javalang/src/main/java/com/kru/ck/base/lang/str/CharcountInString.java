@@ -13,6 +13,9 @@ public class CharcountInString {
          String  input = sc.nextLine();
          System.out.println(" Input string : ");
          System.out.println(charCount(input));
+         
+         chartCounOne(input);
+    
 	}
 
 	public static HashMap<Character, Integer>  charCount(String input){
@@ -29,5 +32,21 @@ public class CharcountInString {
 		
 		return countMap;
 		
+	}
+	
+	public static void chartCounOne(String input){
+		int[] array = new int[256];
+		
+		for(int i=0 ; i<input.length();i++){
+			char ch = input.charAt(i);	
+			array[ch]++;
+		}
+		System.out.println(array);
+		for(int i=0 ; i<256; i++){
+			if(array[i]>0){
+				System.out.println((char)i+ ": "+array[i] );
+				;	
+			}
+		}
 	}
 }

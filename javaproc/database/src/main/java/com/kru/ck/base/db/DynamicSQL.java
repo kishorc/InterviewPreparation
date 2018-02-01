@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * 
- * @author smanchikalapudi
+ * 
  * This example intended for constructing and executing an SQL statement for the given inputs.
  * Scenario: There is an employee search will happen based on given employee object. 
  * The properties of the employee may empty or null.

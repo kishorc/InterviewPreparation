@@ -39,6 +39,27 @@ public class TestFibonacciSeries {
 		
 	}
 	
+	static int[] getFiboncaccirev(int number)
+	{
+		
+		if (number < 1) return new int[0];
+		if (number == 1) return new int[] {1};
+		
+		if (number == 2) return new int[] {1, 1};
+		
+		int[] arr = new int[number];
+		
+		arr[0] = 1;
+		arr[1] = 1;
+		
+		for(int i = 2;i<number; i++)
+		{
+			arr[i] = arr[i-1] + arr[i-2];
+		}
+		
+		return arr;
+		
+	}
 	static void printArray(int arr[])
 	{
 		for(int i : arr)
