@@ -72,7 +72,7 @@ public class FindAnagram {
 		 
 		 for( int j=0 ; j<256;j++){
 			 if(count1[j]!=0){
-				 return true;
+				 return false;
 			 }
 		 }
 		 return true;

@@ -9,7 +9,6 @@ public class AOSChallengeImpl implements AOSChallenge {
 		
 		//productOfOtherPositions test:
 		AOSChallengeImpl impl = new AOSChallengeImpl();
-		
 		System.out.println("productOfOtherPositions Test : ");
 		int[] input = {6, 3, 2};
 		int[] result = impl.productOfOtherPositions(input);
